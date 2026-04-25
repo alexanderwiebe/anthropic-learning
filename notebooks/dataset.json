@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse an AWS CloudFormation template to extract all Lambda function logical IDs and their runtime versions",
+    "format": "python",
+    "solution_criteria": "Solution should correctly identify and return a dictionary mapping Lambda logical IDs to their runtime values from a CloudFormation JSON/YAML structure"
+  },
+  {
+    "task": "Create a JSON IAM policy that allows read-only access to all S3 buckets with names starting with 'prod-'",
+    "format": "json",
+    "solution_criteria": "Solution must be valid JSON with correct IAM policy structure, appropriate Action statements, and Resource wildcards that match 'prod-*' buckets"
+  },
+  {
+    "task": "Write a regex pattern to match and validate AWS EC2 instance IDs from log files",
+    "format": "regex",
+    "solution_criteria": "Pattern should accurately match AWS EC2 instance IDs (format: i-followed by 8 or 17 hexadecimal characters) and not match invalid formats"
+  }
+]

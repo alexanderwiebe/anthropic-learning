@@ -1,5 +1,5 @@
 {
   "exclude": [
-    "notebooks/001_prompt_evals.ipynb"
+    "notebooks/001_prompt_evals*.ipynb"
   ]
 }
