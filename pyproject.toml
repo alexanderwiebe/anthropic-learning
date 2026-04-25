@@ -16,6 +16,7 @@ dependencies = [
     "scipy",
     # AI / ML
     "anthropic",
+    "voyageai",
 ]
 
 [project.optional-dependencies]
