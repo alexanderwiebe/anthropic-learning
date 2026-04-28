@@ -39,10 +39,7 @@ select = ["E", "F", "I"]
 ignore = ["F401"]
 
 [tool.ruff]
-exclude = ["notebooks/001_prompt_evals*.ipynb", "notebooks/001_prompting.ipynb", "notebooks/002_prompting_completed.ipynb", "notebooks/001_tools.ipynb"]
+exclude = ["notebooks/00*.ipynb", "notebooks/**/*.ipynb"]
 
 [tool.ruff.lint.per-file-ignores]
 "*.ipynb" = ["E402"]
-
-[tool.pyright]
-exclude = ["notebooks/001_prompting.ipynb", "notebooks/002_prompting_completed.ipynb", "notebooks/001_tools.ipynb"]
